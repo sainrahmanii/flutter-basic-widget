@@ -1,5 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basic_apps/widget_lessons/navigation/bottom_navigation.dart';
+import 'package:flutter_basic_apps/widget_lessons/basic_layout/aspecratio_widget.dart';
+// import 'package:flutter_basic_apps/widget_lessons/basic_layout/center_widget.dart';
+// import 'package:flutter_basic_apps/widget_lessons/basic_layout/column_widget.dart';
+// import 'package:flutter_basic_apps/widget_lessons/basic_layout/expanded_widget.dart';
+// import 'package:flutter_basic_apps/widget_lessons/basic_layout/gridview_widget.dart';
+// import 'package:flutter_basic_apps/widget_lessons/basic_layout/listview_widget.dart';
+// import 'package:flutter_basic_apps/widget_lessons/basic_layout/padding_widget.dart';
+// import 'package:flutter_basic_apps/widget_lessons/basic_layout/row_widget.dart';
+// import 'package:flutter_basic_apps/widget_lessons/basic_layout/sizedbox_widget.dart';
+// import 'package:flutter_basic_apps/widget_lessons/basic_layout/stack_widget.dart';
+// import 'package:flutter_basic_apps/widget_lessons/basic_layout/wrap_widget.dart';
+// import 'package:flutter_basic_apps/widget_lessons/navigation/bottom_navigation.dart';
 // import 'package:flutter_basic_apps/widget_lessons/navigation/navigation_drawer.dart';
 // import 'package:flutter_basic_apps/widget_lessons/navigation/navigation_push.dart';
 // import 'package:flutter_basic_apps/widget_lessons/navigation/sliver_widget.dart';
@@ -28,7 +39,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const NavigationBottom()
+        home: const AspecRatioWidget()
     );
   }
 }
