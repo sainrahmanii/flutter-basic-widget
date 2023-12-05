@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basic_apps/widget_lessons/navigation/sliver_widget.dart';
+import 'package:flutter_basic_apps/widget_lessons/navigation/bottom_navigation.dart';
+// import 'package:flutter_basic_apps/widget_lessons/navigation/navigation_drawer.dart';
+// import 'package:flutter_basic_apps/widget_lessons/navigation/navigation_push.dart';
+// import 'package:flutter_basic_apps/widget_lessons/navigation/sliver_widget.dart';
 // import 'package:flutter_basic_apps/widget_lessons/basic_widget/button_widget.dart';
 // import 'package:flutter_basic_apps/widget_lessons/basic_widget/image_widget.dart';
 // import 'package:flutter_basic_apps/widget_lessons/navigation/tabbar_widget.dart';
@@ -25,6 +28,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const SliverWidget());
+        home: const NavigationBottom()
+    );
   }
 }
