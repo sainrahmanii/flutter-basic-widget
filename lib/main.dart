@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_basic_apps/widget_lessons/basic_form/dialog_widget.dart';
+import 'package:flutter_basic_apps/widget_lessons/basic_form/form_widget.dart';
 import 'package:flutter_basic_apps/widget_lessons/basic_layout/aspecratio_widget.dart';
 // import 'package:flutter_basic_apps/widget_lessons/basic_layout/center_widget.dart';
 // import 'package:flutter_basic_apps/widget_lessons/basic_layout/column_widget.dart';
@@ -39,7 +41,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const AspecRatioWidget()
+        home: const FormWidget()
     );
   }
 }
